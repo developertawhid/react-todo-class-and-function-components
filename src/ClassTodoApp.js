@@ -64,7 +64,7 @@ class ClassTodoApp extends Component {
         }
         return (
             <div className="box">
-                <h1>AbacaxiGuy's Todo List</h1>
+                <h1>Class Component Todo List</h1>
                 <TodoInput handleSubmit={ handleSubmit } todo={todo} setTodo={inputFunc} />
                 <Todos deleteTodo={deleteTodo} editTodo={editTodo} todoList={todoList} />
             </div>

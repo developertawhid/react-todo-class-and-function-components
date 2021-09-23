@@ -58,7 +58,7 @@ function TodoApp() {
 
   return (
     <div className="box">
-      <h1>AbacaxiGuy's Todo List</h1>
+      <h1>Function Component Todo List</h1>
       <TodoInput handleSubmit={ handleSubmit } todo={todo} setTodo={setTodo} />
       <Todos deleteTodo={deleteTodo} editTodo={editTodo} todoList={todoList} />
     </div>
